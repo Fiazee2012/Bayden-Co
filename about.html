@@ -24,24 +24,22 @@
 </head>
 
 <body>
-	<div class="container-fluid" style="background-color: #51CC4A; height: 25px;">
-		<div class="d-flex flex-row">
-			<div class="text-white border-end border-white border-1 px-3">
-				<p><i class="bi bi-telephone-fill"></i> +254700330033</p>
-			</div>
-			<div class="text-white border-end border-white border-1 px-3">
-				<p><i class="bi bi-envelope-fill"></i> info@bayden.com</p>
-			</div>
-			<div class="text-white border-end border-white border-1 px-3">
-				<p><i class="bi bi-geo-alt-fill"></i>Limuru Road, Nairobi Kenya</p>
-			</div>
-		</div>
-	</div>
+	<header style="background-color: #51CC4A; height: 25px;">
+		<span class="text-white border-end border-white border-1 px-3">
+			<i class="bi bi-telephone-fill"></i> +254700330033
+		</span>
+		<span class="text-white border-end border-white border-1 px-3">
+			<i class="bi bi-envelope-fill"></i> info@bayden.com
+		</span>
+		<span class="text-white border-end border-white border-1 px-3">
+			<i class="bi bi-geo-alt-fill"></i>Limuru Road, Nairobi Kenya
+		</span>
+	</header>
 
-	<nav class="navbar navbar-expand-lg shadow">
+	<nav class="navbar navbar-expand-lg sticky-top shadow bg-white">
 		<div class="container">
 			<div class="navbar-brand me-5">
-				<a href="#" class="text-decoration-none"><img src="Images/BaydenLogo.png"></a>
+				<a href="index.html" class="text-decoration-none"><img src="Images/BaydenLogo.png"></a>
 			</div>
 			<button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#eventMenu"
 				aria-expanded="false">
@@ -49,24 +47,20 @@
 			</button>
 			<div class="collapse navbar-collapse" id="eventMenu">
 				<div class="navbar-nav ms-3 me-auto">
-					<a href="index.html" class="text-decoration-none fs-5 me-3 fw-semibold"
-						style="color: #51CC4A;">Home</a>
-					<a href="about.html" class="text-decoration-none fs-5 me-3 fw-semibold"
-						style="color: #51CC4A;">About Us</a>
-					<a href="reserve.html" class="text-decoration-none fs-5 fw-semibold" style="color: #51CC4A;">Reserve
-						Spot</a>
-					<a href="contact.html" class="text-decoration-none fs-5 mx-3 fw-semibold"
-						style="color: #51CC4A;">Contact Us</a>
+					<a href="index.html" class="text-decoration-none mx-3 fw-normal" style="color: #51CC4A;">Home</a>
+					<a href="about.html" class="text-decoration-none mx-3 fw-normal" style="color: #51CC4A;">About
+						Us</a>
+					<a href="contact.html" class="text-decoration-none mx-3 fw-normal" style="color: #51CC4A;">Contact
+						Us</a>
 				</div>
 				<div>
-					<a href="reserve.html" class="btn rounded-5" style="color: #51CC4A; border-color: #51CC4A;"> Reserve
-						Spot <i class="bi bi-arrow-right"></i></a>
+					<a href="reserve.html" class="btn rounded-5" style="color: #51CC4A; border-color: #51CC4A;"> Get
+						Ticket <i class="bi bi-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
 	</nav>
-
-	<div class="container mt-5">
+	<div class="container mt-5 pt-5">
 		<div class="row">
 			<div class="col-lg-5">
 				<h1 style="color: #000000B0;">Start your event with
@@ -76,7 +70,8 @@
 				<a href="reserve.html" class="btn rounded-0 text-white" style="background-color: #51CC4A;"> Reserve Spot
 					<i class="bi bi-arrow-right ms-3"></i></a>
 				<a href="contact.html" class="btn rounded-0 bg-white ms-4"
-					style="color: #51CC4A; border-color: #51CC4A;"> Contact
+					style="color: #51CC4A; border-color: #51CC4A;">
+					Contact
 					us <i class="bi bi-arrow-right ms-3"></i></a>
 			</div>
 			<div class="col-lg-7">
@@ -298,7 +293,7 @@
 		</div>
 	</div>
 	</div>
-	<div class="container text-black mt-5">
+	<div class="container text-black my-5">
 		<div class="row">
 			<div class="col-lg-6">
 				<h1>Subscribe to Our Newsletter.</h1>
@@ -308,18 +303,18 @@
 				<form>
 					<div class="row">
 						<div class="col-lg-6">
-							<input type="text" class="border-white border-bottom" placeholder="First name *" />
+							<input type="text" class="border-0 border-bottom py-2" placeholder="First name *" />
 						</div>
 						<div class="col-lg-6">
-							<input type="text" class="border-white border-bottom" placeholder="Last name *" />
+							<input type="text" class="border-0 border-bottom py-2" placeholder="Last name *" />
 						</div>
 					</div>
-					<div class="row py-5">
+					<div class="row pt-5">
 						<div class="col-lg-6">
-							<input type="text" class="border-white border-bottom" placeholder="Email *" />
+							<input type="text" class="border-0 border-bottom py-2" placeholder="Email *" />
 						</div>
 						<div class="col-lg-6">
-							<a href="subs.html" class="btn rounded-5 text-white px-5"
+							<a href="subs.html" class="btn rounded-4 text-white px-5"
 								style="background-color: #51CC4A;">
 								Subsribe now </a>
 						</div>
@@ -334,7 +329,8 @@
 			<div class="container py-3">
 				<div class="row">
 					<div class="col-lg-3">
-						<img src="Images/Blue Modern Business Logo (1) 1.png" style="width: 112px; height: 73px;">
+						<img src="Images/Blue Modern Business Logo (1) 1.png" class="img-fluid"
+							style="width: 112px; height: 73px;">
 						<p>We are committed to providing and offering highly standard, most effective events
 							platform!</p>
 					</div>
@@ -342,8 +338,8 @@
 						<h5>Quick Links</h5>
 						<a href="index.html" class="text-white text-decoration-none">Home</a><br>
 						<a href="about.html" class="text-white text-decoration-none">About Us</a><br>
-						<a href="reserve.html" class="text-white text-decoration-none">Reserve Spot</a><br>
 						<a href="contact.html" class="text-white text-decoration-none">Contact Us</a><br>
+						<a href="reserve.html" class="text-white text-decoration-none">Get your ticket</a><br>
 					</div>
 					<div class="col-lg-3">
 						<h5>Contacts</h5>
